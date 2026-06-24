@@ -6,7 +6,33 @@ margin: 0%;
 padding: 0%;
 }
 
-
+.navbar-brand{
+      font-family:"Donegal One", sans-serif; 
+    color:#fbab00;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+.navbar{
+    background-color: #1a204f;
+}
+.nav-item .nav-link{
+      font-family:"Donegal One", sans-serif; 
+    color:#fbab00;
+    font-size: 1rem;
+    margin: 20px;
+}
+.mytoggler {
+    background-color: #fbab00;
+}
+.fondomenu{
+    background-color: #1a204f;
+}
+.titulocanvas{
+    font-family:"Donegal One", sans-serif; 
+    color:#fbab00;
+    font-size: 2rem;
+    margin: 20px;
+}
 html, body{
     font-size: 62,5%;
 }
@@ -24,7 +50,7 @@ header{
   width: 100%;
   height: auto;
   display: block;
-  border: 3px solid rgb(251, 171, 0);
+  border: 3px solid #fbab00;
 }
 .seccionchiquito{
   display: flex;
@@ -44,7 +70,7 @@ header{
 }
 .texto{
     font-family:"Donegal One", sans-serif; 
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 .imgbenjachiquito{
   width: 100%;
