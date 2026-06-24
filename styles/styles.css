@@ -138,16 +138,19 @@ background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
 background-color: #1a204f;
-height: 180px;
+height: 150px;
 }
-.linksfooter ul{
+.footer{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 5px;
-    margin: 2px ;
-    justify-content: space-between;
-    height: 80px;
+    justify-content: center;
+}
+.dropdown-menu{
+    background-color: #fbab00;
+}
+.dropdown-item{
+     font-family:"Donegal One", sans-serif; 
+    color:#1a204f;
+    font-size: 1rem;
 }
 .god{
     display: flex;
@@ -157,12 +160,6 @@ h3{
       font-family:"Donegal One", sans-serif;
     color:rgb(251, 171, 0);
     font-size: 1.75rem;
-}
-.btnindex{
-    background-color:#ffffff ;
-    border-radius: 8px;
-    font-family:"Donegal One";
-    font-size: 18px;
 }
 section{
     color:rgb(0, 0, 0) ;
