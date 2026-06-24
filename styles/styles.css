@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Donegal+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+margin: 0%;
+padding: 0%;
+}
+
+
+html, body{
+    font-size: 62,5%;
+}
+header{
+   background-color: #1a204f ;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px;
+}
+.generalmain{
+  width: 100%;
+}
+.bannerbenja{
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 3px solid rgb(251, 171, 0);
+}
+.seccionchiquito{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  box-sizing: border-box;
+}
+.contenido{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+.titulo{
+  margin: 10px;
+}
+.texto{
+    font-family:"Donegal One", sans-serif; 
+    font-size: 1.5rem;
+}
+.imgbenjachiquito{
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  object-fit: cover;
+  align-self: flex-start;
+  margin: 10px;
+  margin-right: 0%;
+  border: 3px solid rgb(251, 171, 0);
+}
+nav ul{
+    display:flex;
+    flex-direction: row;
+}
+nav ul li{
+    margin-left: 35px;
+}
+body{
+    background-color: #1a204f;
+}
+h1{
+     font-family:"Donegal One", sans-serif; 
+    color:rgb(251, 171, 0);
+    font-size: 2.5rem;
+    margin: 50px;
+}
+nav{
+    font-family:"Donegal One", sans-serif; ;
+    color:rgb(255, 255, 255);
+    font-size: 1,5rem;
+}
+h2{ 
+    font-family:"Donegal One", sans-serif;
+    color:rgb(251, 171, 0);
+    text-decoration:none;
+    font-size: 1.75rem;
+}
+.novedadesIndex div{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    color: hsl(0, 0%, 100%);
+    font-family: "Dancing Script", cursive;;
+    font-size: 1.75rem;
+}
+ul{
+    list-style: none;
+    font-family:"Donegal One", sans-serif; ;
+    font-size: 1,5rem;
+}
+a{
+    text-decoration: none;
+    color:rgb(251, 171, 0);
+    font-size: 1,5rem;
+}
+ol{
+    font-family:"Donegal One", sans-serif; ;
+    color: #000000;
+    font-size: 1,5rem;
+}
+footer{
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-color: #1a204f;
+height: 180px;
+}
+.linksfooter ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 5px;
+    margin: 2px ;
+    justify-content: space-between;
+    height: 80px;
+}
+.god{
+    display: flex;
+    flex-direction: row;
+}
+h3{
+      font-family:"Donegal One", sans-serif;
+    color:rgb(251, 171, 0);
+    font-size: 1.75rem;
+}
+.btnindex{
+    background-color:#ffffff ;
+    border-radius: 8px;
+    font-family:"Donegal One";
+    font-size: 18px;
+}
+section{
+    color:rgb(0, 0, 0) ;
+    font-family:"Donegal One", sans-serif; 
+    font-size: 1,5rem;
+}
+main{
+    color: rgb(251, 171, 0);
+}
+h4{
+    color: rgb(251, 171, 0);
+   font-size: 2rem;
+}
