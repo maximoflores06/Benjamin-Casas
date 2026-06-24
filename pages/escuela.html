@@ -4,54 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Benjamin Casas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
+    <meta name=".">
+
 </head>
 <body>
     <header>
-         <h1> Benjamin Casas</h1>
 
-        <nav>
-            <ul>
-                <li><a href="../index.html">¿Quien soy?</a></li>
-                <li><a href="../pages/competiciones.html">Participación en competiciones</a></li>
-                <li><a href="../pages/premios.html">Premios y reconocimientos</a></li>
-                <li><a href="../pages/escuela.html">Escuela CWT</a></li>
-                <li><a href="../pages/ubicacion.html">ubicación</a></li>
-                <li><a href="../pages/contactos.html">Contacto</a></li>
+
+       
+          <nav class="navbar myfondo fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">Benjamin Casas</a>
+    <button class="navbar-toggler mytoggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end fondomenu" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title titulocanvas" id="offcanvasNavbarLabel">Sobre mi</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">¿Quien soy?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/competiciones.html">Participación en competiciones</a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../pages/escuela.html">Escuela CWT</a>
+            <li class="nav-item">
+            <a class="nav-link" href="../pages/premios.html">Premios y reconocimientos</a>
+            <li class="nav-item">
+            <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
-
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+  
+               
     </header>
-        </nav>
-            <main>
-                <form action=""></form>
-                 <input type="search">
-                <input type="submit" value="buscar">
-            <main>
-                <div class="banner">
-                    <img src="../assets/imgbenjabanner.jfif" alt="">
-                </div>
-        <section>
 
-        </section>
-            <h2></h2>
-                <h3>"No hay que ser bueno para empezar sino hay que empezar para ser bueno"</h3>
-        <section>
-        <div>
 
-        </section>
-        </main>
+    <main class="generalmain">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../assets/imagenbanner2.jfif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/imgbenjabanner.jfif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/imgbenjabanner3.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </main>
+
 <footer>
-        <h4></h4>
         <div class="linksfooter">
+
             <ul>
-                <li><a href="../index.html">¿Quien soy?</a></li>
-                <li><a href="../pages/competiciones.html">Participación en competiciones</a></li>
-                <li><a href="../pages/premios.html">Premios y reconocimientos</a></li>
-                <li><a href="../pages/escuela.html">Escuela CWT</a></li>
-                <li><a href="../pages/ubicacion.html">ubicación</a></li>
-                <li><a href="../pages/contactos.html">Contacto</a></li>
-                </ul>
-        </div>
+                <li><a href="./index.html">¿Quien soy?</a></li>
+                <li><a href="./pages/competiciones.html">Participación en competiciones</a></li>
+                <li><a href="./pages/premios.html">Premios y reconocimientos</a></li>
+                <li><a href="./pages/escuela.html">Escuela CWT</a></li>
+                <li><a href="./pages/ubicacion.html">ubicación</a></li>
+                <li><a href="./pages/contactos.html">Contacto</a></li>
+            </ul>
 </footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
