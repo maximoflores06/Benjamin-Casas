@@ -14,6 +14,7 @@ padding: 0%;
   font-family:"Donegal One", sans-serif; 
   color:#fbab00;
   font-size: 2.5rem;
+  font-weight: 700;
   margin: 20px;
 }
 .navbar{
@@ -22,7 +23,7 @@ padding: 0%;
 .nav-item .nav-link{
   font-family:"Donegal One", sans-serif; 
   color:#fbab00;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 20px;
 }
 .mytoggler {
@@ -38,7 +39,7 @@ padding: 0%;
   margin: 20px;
 }
 html, body{
-  font-size: 62,5%;
+  font-size: 62.5%;
   overflow-x: hidden;
 }
 header{
@@ -71,11 +72,18 @@ header{
   flex: 1;
 }
 .titulo{
-  margin-top: 30px;
+  font-family:"Donegal One", sans-serif; 
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 30px;
+  margin-left: 10px;
+  display:flex ;
+  flex-direction: row;
+  width: 700px;
 }
 .texto{
   font-family:"Donegal One", sans-serif; 
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .imgbenjachiquito{
   width: 100%;
@@ -83,6 +91,7 @@ header{
   height: auto;
   object-fit: cover;
   align-self: flex-start;
+  align-self: center;
   margin: 10px;
   margin-right: 0%;
   border: 3px solid rgb(251, 171, 0);
@@ -127,7 +136,7 @@ h1{
 nav{
     font-family:"Donegal One", sans-serif; ;
     color:rgb(255, 255, 255);
-    font-size: 1,5rem;
+    font-size: 1.5rem;
 }
 h2{ 
     font-family:"Donegal One", sans-serif;
@@ -143,18 +152,15 @@ p{
 ul{
     list-style: none;
     font-family:"Donegal One", sans-serif; ;
-    font-size: 1,5rem;
+    font-size: 1.5rem;
 }
 a{
+    font-family:"Donegal One", sans-serif;
     text-decoration: none;
     color:rgb(251, 171, 0);
-    font-size: 1,5rem;
+    font-size: 1.5rem;
 }
-ol{
-    font-family:"Donegal One", sans-serif; ;
-    color: #000000;
-    font-size: 1,5rem;
-}
+
 footer{
     background-size: cover;
     background-position: center;
@@ -172,7 +178,7 @@ footer{
 .dropdown-item{
     font-family:"Donegal One", sans-serif; 
     color:#1a204f;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 h3{
@@ -183,7 +189,7 @@ h3{
 section{
     color:rgb(0, 0, 0) ;
     font-family:"Donegal One", sans-serif; 
-    font-size: 1,5rem;
+    font-size: 1.5rem;
 }
 main{
     color: rgb(251, 171, 0);
@@ -192,3 +198,4 @@ h4{
     color: rgb(251, 171, 0);
    font-size: 2rem;
 }
+@media(max-width: 480px)
