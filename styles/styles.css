@@ -52,6 +52,7 @@ header{
 .generalmain{
   width: 100%;
 }
+
 .bannerbenja{
   width: 100%;
   height: auto;
@@ -107,11 +108,59 @@ body{
     background-color: #1a204f;
 }
 .titulopremios{
-    margin-top: 30px;
+  font-family:"Donegal One", sans-serif; 
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 30px;
+  margin-left: 10px;
+  display:flex ;
+  flex-direction: row;
+  width: 700px;
 }
+.textopremios{
+    font-family:"Donegal One", sans-serif; 
+    font-size: 1.5rem;
+}
+.card-compes{
+  background: #303a82;
+  border-color: #334155; 
+  margin-top: 20px;
+}
+
+.card-compes .card-title{
+  color: #919191;
+   font-family:"Donegal One", sans-serif; 
+    font-size: 2.5rem;
+}
+
+.card-compes .card-text{
+  color: #cbd5e1;
+    font-family:"Donegal One", sans-serif; 
+    font-size: 2rem;
+}
+.card-compes .text-body-secondary{
+  color: #94a3b8;
+}
+.card-compes2{
+  background-color: #303a82;
+  margin-top: 20px;
+}
+.card-compes2 .card-title{
+  color: #919191;
+  font-family:"Donegal One", sans-serif; 
+  font-size: 2.5rem;
+}
+.card-compes2 .card-text{
+   color: #cbd5e1;
+    font-family:"Donegal One", sans-serif; 
+    font-size: 2rem;
+}
+
+
+
 .custom-card{
-    background-color: #303982;
-    margin-top: 20px;
+    background-color: #303a82;
+    margin: 50px;
 }
 .custom-card .card-body{
     color: aliceblue;
@@ -120,7 +169,7 @@ body{
 }
 .custom-card .card-text{
     font-family:"Donegal One", sans-serif; 
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .custom-card-img{
     height: 300px;
@@ -197,4 +246,4 @@ main{
 h4{
     color: rgb(251, 171, 0);
    font-size: 2rem;
-  }
+}
