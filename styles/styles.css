@@ -85,6 +85,57 @@ header{
   max-width: 50%;  
   margin: 0 auto;
 }
+.titulocontacto{
+    font-family:"Donegal One", sans-serif; 
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 30px;
+  margin-left: 10px;
+  display:flex ;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.red-item{
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px;
+}
+
+.red-link{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 5rem;
+}
+
+.red-icon{
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  width: 5rem;
+  height: 5rem;
+
+}
+.mail{
+    font-family:"Donegal One", sans-serif; 
+  font-size: 5rem;
+}
+.telefono{
+    display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: inherit;
+  font-size: 5rem;
+}
+
 .bannerbenja{
   width: 100%;
   height: auto;
