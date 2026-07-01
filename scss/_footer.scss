@@ -1,0 +1,15 @@
+
+footer {
+  background-color: $color-principal;
+  min-height: 150px;
+  padding: 2rem 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}

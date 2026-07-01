@@ -1,3 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html,
+body {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #1a204f;
+}
+
+h1 {
+  font-family: "Donegal One", sans-serif;
+  color: #fbab00;
+  font-size: 2.5rem;
+  margin: 5rem;
+}
+
+h2,
+h3 {
+  font-family: "Donegal One", sans-serif;
+  color: #fbab00;
+  font-size: 1.75rem;
+}
+
+h4 {
+  color: #fbab00;
+  font-size: 2rem;
+}
+
+p {
+  color: #ffffff;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+ul {
+  list-style: none;
+  font-family: "Donegal One", sans-serif;
+  font-size: 1.5rem;
+  padding-left: 0;
+}
+
+a {
+  font-family: "Donegal One", sans-serif;
+  text-decoration: none;
+  color: #fbab00;
+  font-size: 1.5rem;
+}
+
+section {
+  font-family: "Donegal One", sans-serif;
+  font-size: 1.5rem;
+}
+
+main {
+  color: #fbab00;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* =========================
+   NAVBAR BASE
+========================= */
+.navbar {
+  background-color: #1a204f;
+}
+
+/* LOGO */
+.navbar-brand {
+  font-family: "Donegal One", sans-serif;
+  color: #fbab00;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: rgb(255, 188.7051792829, 47);
+}
+
+/* LINKS */
+.nav-item .nav-link {
+  font-family: "Donegal One", sans-serif;
+  color: #fbab00;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+  color: rgb(255, 188.7051792829, 47);
+}
+
+/* TOGGLER */
+.mytoggler {
+  background-color: #fbab00;
+  border: none;
+}
+
+/* OFFCANVAS MENU */
+.fondomenu {
+  background-color: #1a204f;
+}
+
+/* TITULO OFFCANVAS */
+.titulocanvas {
+  font-family: "Donegal One", sans-serif;
+  color: #fbab00;
+  font-size: 2rem;
+}
+
+/* =========================
+   NAV GLOBAL (MEJORADO)
+========================= */
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 2rem;
+}
+
+.generalmain {
+  width: 100%;
+}
+
+.generalmain2 {
+  background-color: black;
+}
+
+.hero-bg > * {
+  position: relative;
+  z-index: 2;
+}
+
+.seccionhistoria {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.titulo,
+.tituloescuela,
+.titulocontacto,
+.titulopremios {
+  font-family: "Donegal One", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 3rem 0 3rem 1rem;
+  width: 100%;
+  max-width: 700px;
+}
+
+.texto {
+  font-family: "Donegal One", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+.imgbenjachiquito {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  object-fit: cover;
+  border: 3px solid #fbab00;
+  flex-shrink: 0;
+}
+
+#carouselExampleFade {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.imagenescuela {
+  width: 30rem;
+  display: block;
+  margin: 2rem auto 0;
+}
+
+.red-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.contactos {
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.lista-contactos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.red-link,
+.telefono,
+.mail {
+  font-size: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.red-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.card-compes,
+.card-compes2 {
+  background-color: #303a82;
+  margin-top: 2rem;
+}
+.card-compes .card-title,
+.card-compes2 .card-title {
+  color: #919191;
+  font-family: "Donegal One", sans-serif;
+  font-size: 2.5rem;
+}
+.card-compes .card-text,
+.card-compes2 .card-text {
+  color: #cbd5e1;
+  font-family: "Donegal One", sans-serif;
+  font-size: 2rem;
+}
+
+.card-compes {
+  border: 1px solid #334155;
+}
+.card-compes .text-body-secondary {
+  color: #94a3b8;
+}
+
+.custom-card {
+  background-color: #303a82;
+  margin: 3rem;
+}
+.custom-card .card-body {
+  color: aliceblue;
+  font-family: "Donegal One", sans-serif;
+  font-size: 1.5rem;
+}
+.custom-card .card-text {
+  font-family: "Donegal One", sans-serif;
+  font-size: 1.5rem;
+}
+
+/* imagen de card */
+.custom-card-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border: 2px solid #fbab00;
+}
+
+footer {
+  background-color: #1a204f;
+  min-height: 150px;
+  padding: 2rem 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  #carouselExampleFade {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .seccionhistoria {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contenido {
+    width: 100%;
+  }
+  .imgbenjachiquito {
+    max-width: 320px;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 56%;
+  }
+  .navbar-brand {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+  .nav-item .nav-link {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+  }
+  .titulo,
+  .tituloescuela,
+  .titulocontacto,
+  .titulopremios,
+  .titulocanvas {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem auto;
+    width: 100%;
+  }
+  .mail,
+  .telefono {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  p {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    padding: 0 1rem;
+  }
+  .seccionhistoria {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .contenido {
+    width: 100%;
+  }
+  .imgbenjachiquito {
+    max-width: 240px;
+    margin: 2rem auto;
+  }
+  .custom-card {
+    margin: 1rem;
+  }
+  .custom-card-img {
+    height: 200px;
+  }
+  .red-item {
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .red-link,
+  .telefono,
+  .mail {
+    font-size: 2rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+  }
+  .red-link span,
+  .red-link {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .red-link span {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+  .mail {
+    width: 100%;
+  }
+  .red-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+  footer {
+    height: auto;
+    padding: 2rem 0;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 52%;
+  }
+  .navbar-brand {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  .titulo {
+    font-size: 1.8rem;
+  }
+  .imgbenjachiquito {
+    max-width: 200px;
+  }
+  .red-link,
+  .telefono,
+  .mail {
+    font-size: 1.8rem !important;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

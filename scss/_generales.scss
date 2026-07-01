@@ -1,0 +1,75 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: $color-principal;
+}
+
+
+h1 {
+  font-family: $fuente-titulo;
+  color: $color-secundario;
+  font-size: 2.5rem;
+  margin: 5rem;
+}
+
+h2,
+h3 {
+  font-family: $fuente-titulo;
+  color: $color-secundario;
+  font-size: 1.75rem;
+}
+
+h4 {
+  color: $color-secundario;
+  font-size: 2rem;
+}
+
+p {
+  color: $blanco;
+  font-family: $fuente-texto;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+
+ul {
+  list-style: none;
+  font-family: $fuente-titulo;
+  font-size: 1.5rem;
+  padding-left: 0;
+}
+
+a {
+  font-family: $fuente-titulo;
+  text-decoration: none;
+  color: $color-secundario;
+  font-size: 1.5rem;
+}
+
+
+section {
+  font-family: $fuente-titulo;
+  font-size: 1.5rem;
+}
+
+main {
+  color: $color-secundario;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

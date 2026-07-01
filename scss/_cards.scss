@@ -1,0 +1,53 @@
+
+
+.card-compes,
+.card-compes2 {
+  background-color: $color-card;
+  margin-top: 2rem;
+
+  .card-title {
+    color: $color-titulo;
+    font-family: $fuente-titulo;
+    font-size: 2.5rem;
+  }
+
+  .card-text {
+    color: $color-texto;
+    font-family: $fuente-titulo;
+    font-size: 2rem;
+  }
+}
+
+
+.card-compes {
+  border: 1px solid #334155;
+
+  .text-body-secondary {
+    color: $color-texto-sec;
+  }
+}
+
+
+.custom-card {
+  background-color: $color-card;
+  margin: 3rem;
+
+  .card-body {
+    color: aliceblue;
+    font-family: $fuente-titulo;
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    font-family: $fuente-titulo;
+    font-size: 1.5rem;
+  }
+}
+
+/* imagen de card */
+.custom-card-img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border: 2px solid $color-secundario;
+}
