@@ -52,7 +52,39 @@ header{
 .generalmain{
   width: 100%;
 }
+.generalmain2{
+  background-color: black;
+}
+.tituloescuela{
+  font-family:"Donegal One", sans-serif; 
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 30px;
+  margin-left: 10px;
+  display:flex ;
+  flex-direction: row;
+  width: 700px;
+}
+.textoescuela{
+  font-family:"Donegal One", sans-serif; 
+  font-size: 1.5rem;
+}
+.imagenescuela{
+  width: 30rem;
+  display: block;
+  margin: 0% auto;
+  margin-top: 20px;
 
+}
+#carouselExampleAutoplaying .carousel-item{
+  height: 50%;
+  margin-top: 30px;
+  border-radius: 5px solid #fbab00 ;
+}
+#carouselExampleAutoplaying{
+  max-width: 50%;  
+  margin: 0 auto;
+}
 .bannerbenja{
   width: 100%;
   height: auto;
@@ -160,7 +192,7 @@ body{
 
 .custom-card{
     background-color: #303a82;
-    margin: 50px;
+    margin: 30px;
 }
 .custom-card .card-body{
     color: aliceblue;
@@ -220,6 +252,7 @@ footer{
 .footer{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 .dropdown-menu{
     background-color: #fbab00;
