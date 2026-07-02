@@ -69,14 +69,12 @@ img {
   display: block;
 }
 
-/* =========================
-   NAVBAR BASE
-========================= */
+
 .navbar {
   background-color: #1a204f;
 }
 
-/* LOGO */
+
 .navbar-brand {
   font-family: "Donegal One", sans-serif;
   color: #fbab00;
@@ -109,21 +107,18 @@ img {
   border: none;
 }
 
-/* OFFCANVAS MENU */
 .fondomenu {
   background-color: #1a204f;
 }
 
-/* TITULO OFFCANVAS */
+
 .titulocanvas {
   font-family: "Donegal One", sans-serif;
   color: #fbab00;
   font-size: 2rem;
 }
 
-/* =========================
-   NAV GLOBAL (MEJORADO)
-========================= */
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -284,7 +279,7 @@ nav ul li {
   font-size: 1.5rem;
 }
 
-/* imagen de card */
+
 .custom-card-img {
   height: 300px;
   width: 100%;
