@@ -69,12 +69,11 @@ img {
   display: block;
 }
 
-
 .navbar {
   background-color: #1a204f;
 }
 
-
+/* LOGO */
 .navbar-brand {
   font-family: "Donegal One", sans-serif;
   color: #fbab00;
@@ -101,7 +100,6 @@ img {
   color: rgb(255, 188.7051792829, 47);
 }
 
-/* TOGGLER */
 .mytoggler {
   background-color: #fbab00;
   border: none;
@@ -111,13 +109,11 @@ img {
   background-color: #1a204f;
 }
 
-
 .titulocanvas {
   font-family: "Donegal One", sans-serif;
   color: #fbab00;
   font-size: 2rem;
 }
-
 
 nav ul {
   display: flex;
@@ -279,7 +275,7 @@ nav ul li {
   font-size: 1.5rem;
 }
 
-
+/* imagen de card */
 .custom-card-img {
   height: 300px;
   width: 100%;
@@ -304,7 +300,7 @@ footer {
 
 @media (max-width: 1024px) {
   #carouselExampleFade {
-    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
   }
   .seccionhistoria {

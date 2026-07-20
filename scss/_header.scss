@@ -1,8 +1,5 @@
 
 
-/* =========================
-   NAVBAR BASE
-========================= */
 .navbar {
   background-color: $color-principal;
 }
@@ -34,27 +31,23 @@
   color: lighten($color-secundario, 10%);
 }
 
-/* TOGGLER */
+
 .mytoggler {
   background-color: $color-secundario;
   border: none;
 }
 
-/* OFFCANVAS MENU */
 .fondomenu {
   background-color: $color-principal;
 }
 
-/* TITULO OFFCANVAS */
 .titulocanvas {
   font-family: $fuente-titulo;
   color: $color-secundario;
   font-size: 2rem;
 }
 
-/* =========================
-   NAV GLOBAL (MEJORADO)
-========================= */
+
 nav ul {
   display: flex;
   flex-direction: row;
